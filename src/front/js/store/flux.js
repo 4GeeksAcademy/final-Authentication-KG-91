@@ -1,6 +1,7 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
+			whereiam:"Home",
 			message: null,
 			demo: [
 				{
